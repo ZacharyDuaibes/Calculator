@@ -1,6 +1,6 @@
 import math
 while True:
-    choice = input("Regular calculator(c) or quadratic calculator(q): ")
+    choice = input("Regular calculator(r) or quadratic calculator(q): ")
     print("")
     if choice == "q":
         # Printing headers
@@ -25,7 +25,9 @@ while True:
                 print("Answer:",round(x,2))
             else:
                 print("Answers:", str(round(y,2)) +"," + "",str(round(x,2)))
-    if choice == "c":            
+    if choice == "r":    
+        print("CALCULATOR")
+        print()
         number1 = int(input("Enter the first number: "))
         number2 = int(input("Enter the second number: "))
         function = input("Addition(add), Subtraction(sub), Multiply(mul), Divide(div) or Exponent(expo): ")
